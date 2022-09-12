@@ -2,7 +2,7 @@ import { Heading, VStack } from '@chakra-ui/react';
 import { Window, Launcher } from '@relaycc/receiver';
 
 
-const DAO = async (props:any) => {
+const DAO = (props:any) => {
   return (
     <VStack w={'full'}>
       <Heading size="md" marginBottom={6}>
